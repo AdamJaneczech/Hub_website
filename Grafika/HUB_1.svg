@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="488.89203mm"
+   height="125.64102mm"
+   viewBox="0 0 488.89202 125.64102"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="HUB_1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="732.56263"
+     inkscape:cy="373.35238"
+     inkscape:window-width="2560"
+     inkscape:window-height="1566"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-11.014414,-49.903002)">
+    <g
+       id="g310">
+      <circle
+         style="fill:#50d890;fill-opacity:1;stroke:none;stroke-width:2.5025;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path846"
+         cx="96.388763"
+         cy="116.14335"
+         r="11.5" />
+      <circle
+         style="fill:#50d890;fill-opacity:1;stroke:none;stroke-width:3.0064;stroke-opacity:1"
+         id="path846-9"
+         cx="125.74456"
+         cy="133.09192"
+         r="13.2125" />
+      <circle
+         style="fill:#50d890;fill-opacity:1;stroke:none;stroke-width:4.18679;stroke-opacity:1"
+         id="path846-9-3"
+         cx="96.389"
+         cy="68.303001"
+         r="18.4" />
+      <circle
+         style="fill:#50d890;fill-opacity:1;stroke:none;stroke-width:5.4428;stroke-opacity:1"
+         id="path846-9-3-4"
+         cx="34.934414"
+         cy="151.62402"
+         r="23.92" />
+      <path
+         style="fill:none;stroke:#272727;stroke-width:6.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 96.379,91.31 v 8.733"
+         id="path1485"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#272727;stroke-width:6.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 82.123154,124.37988 -22.483751,12.981"
+         id="path1485-3"
+         sodipodi:nodetypes="cc" />
+      <ellipse
+         style="fill:#000000;stroke:#272727;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         id="path1045"
+         cx="-52.388466"
+         cy="157.65344"
+         rx="3.4000001"
+         ry="3.3999999"
+         transform="rotate(-60)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:162.653px;font-family:roboto;-inkscape-font-specification:roboto;fill:#272727;fill-opacity:1;stroke:none;stroke-width:6.79998;stroke-dasharray:none;stroke-opacity:1"
+       x="149.71187"
+       y="174.98779"
+       id="text1520"
+       transform="scale(0.99683187,1.0031782)"><tspan
+         sodipodi:role="line"
+         id="tspan1518"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Orbitron;-inkscape-font-specification:'Orbitron Ultra-Bold';fill:#272727;fill-opacity:1;stroke:none;stroke-width:6.79998"
+         x="149.71187"
+         y="174.98779">Hub</tspan></text>
+  </g>
+</svg>
