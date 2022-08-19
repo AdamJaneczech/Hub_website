@@ -22,6 +22,7 @@ html {
 
 .navbar {
     display: flex;
+    position: fixed;
     align-items: center;
     align-self: center;
     justify-content: space-between;
@@ -29,6 +30,7 @@ html {
     width: 100%;
     color: white;
     background-color: #272727;
+    z-index: 2;
 }
 
 .menu_items {
@@ -74,18 +76,19 @@ html {
 }
 
 .scroll {
-    scroll-snap-align: start;
+    scroll-snap-align: start end;
     overflow: auto;
     scroll-snap-type: y mandatory;
 }
 
 .intro{
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     background-color: #272727;
     background-image: url("/Grafika/HUB_1_w1200px.png");
     background-repeat: no-repeat;
-    background-position: right 2rem;
+    background-position: 90% 0;
+    margin-top: 6rem;
 }
 
 .intro p {
