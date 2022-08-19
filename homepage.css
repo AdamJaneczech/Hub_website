@@ -81,7 +81,7 @@ html {
 
 .intro{
     width: 100%;
-    height: 120vh;
+    height: 85vh;
     background-color: #272727;
     background-image: url("/Grafika/HUB_1_w1200px.png");
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@ html {
 }
 
 .desc{
-    height: 120vh;
+    height: 85vh;
 }
 
 #motto {
