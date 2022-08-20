@@ -20,6 +20,10 @@ html {
     display: grid;
 }
 
+.content p{
+    font-size: 18px;
+}
+
 .navbar {
     display: flex;
     position: fixed top;
@@ -41,27 +45,31 @@ html {
 }
 
 .menu_item {
-    font-size: 18px;
-    margin: 6rem;
-    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 20px;
+    margin: 2em;
+    padding: 1rem 1rem;
+    border-radius: 1em;
 }
 
 .menu_item a {
     text-decoration: none;
-    /* padding: 0.5rem 1rem; */
+    padding: inherit;
     color: inherit;
 }
 
 .menu_item:hover{
+    transition: 0.5s ease-out;
+    color: #EFFFFB;
+    box-shadow: 0.5em 0.5em #EFFFFB;
     background-color: #4F98CA;
-    transform: skew(-14deg);
 }
 
 .mainpage {
     display: grid;
     overflow: auto;
     scroll-snap-type: y mandatory;
-    height: 84.9vh;
+    height: 100vh;
 }
 
 .logo img {
@@ -90,6 +98,7 @@ html {
     background-repeat: no-repeat;
     background-position: 90% 0;
     margin-top: 6rem;
+    /* margin-bottom: 3rem; */
 }
 
 .intro p {
@@ -98,12 +107,36 @@ html {
 }
 
 .desc{
-    height: 85vh;
+    height: 100vh;
+    background-color: #EFFFFB;
+    color: #272727;
+}
+
+.desc h1{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 6rem;
+}
+
+.copyright{
+    background-color: #272727;
+    height: 8rem;
+}
+
+.backpage{
+    height: 4rem;
+}
+
+.footer{
+    height: 12rem;
 }
 
 #motto {
+    color: white;
     font-size: 24px;
+    font-weight: 500;
     margin-top: -1.5rem;
+    margin-left: 5px;
 }
 
 #brief_overview {
@@ -112,10 +145,41 @@ html {
     width: 62.5%;
 }
 
+#intro_button{
+    font-size: 20px;
+    width: 10em;
+    height: 3em;
+    margin-top: 2rem;
+    border-style: none;
+    border-radius: 1em;
+    cursor: pointer;
+    color: #272727;
+    background-color: #EFFFFB;
+}
+
+#intro_button:hover{
+    transition: 0.5s ease-out;
+    box-shadow: 0.75rem 0.75rem #50D890;
+    background-color: #EFFFFB;
+    opacity: 0.8;
+}
+
+#intro_button:after{
+    transition: 0.5s ease-out;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+
 #hub_big {
     margin-top: 100px;
     font-family: 'Orbitron', sans-serif;
     font-size: 10rem;
     color: white;
-    display: block;
+    overflow: hidden;
+    width: 0;
+    animation: typing 1s forwards;
 }
