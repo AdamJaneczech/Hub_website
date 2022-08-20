@@ -16,7 +16,7 @@ html {
     margin: 0 auto;
     align-self: center;
     align-items: center;
-    justify-content: space-between;
+    
     display: grid;
 }
 
@@ -97,7 +97,6 @@ html {
     background-image: url("/Grafika/HUB_1_w1200px.png");
     background-repeat: no-repeat;
     background-position: 90% 0;
-    margin-top: 6rem;
     /* margin-bottom: 3rem; */
 }
 
@@ -107,12 +106,13 @@ html {
 }
 
 .desc{
-    height: 100vh;
+    height: 85vh;
     background-color: #EFFFFB;
     color: #272727;
 }
 
 .desc h1{
+    font-family: 'Orbitron', sans-serif;
     font-size: 5rem;
     font-weight: 600;
     margin-top: 6rem;
@@ -120,15 +120,21 @@ html {
 
 .copyright{
     background-color: #272727;
-    height: 8rem;
+    height: 10vh;
 }
 
 .backpage{
-    height: 4rem;
+    height: 4vh;
 }
 
 .footer{
-    height: 12rem;
+    height: 15vh;
+    scroll-snap-align: end;
+}
+
+@keyframes typing_motto {
+    from { width: 0 }
+    to { width: 12em}
 }
 
 #motto {
@@ -137,6 +143,11 @@ html {
     font-weight: 500;
     margin-top: -1.5rem;
     margin-left: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing_motto 1.2s steps(24, end) forwards;
+    animation-delay: 0.6s;
 }
 
 #brief_overview {
@@ -168,9 +179,9 @@ html {
     transition: 0.5s ease-out;
 }
 
-@keyframes typing {
+@keyframes typing_hub {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 2em }
 }
   
 
@@ -181,5 +192,5 @@ html {
     color: white;
     overflow: hidden;
     width: 0;
-    animation: typing 1s forwards;
+    animation: typing_hub 0.2s steps(3, end) forwards;
 }
