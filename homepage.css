@@ -16,7 +16,6 @@ html {
     margin: 0 auto;
     align-self: center;
     align-items: center;
-    
     display: grid;
 }
 
@@ -26,7 +25,7 @@ html {
 
 .navbar {
     display: flex;
-    position: fixed top;
+    position: fixed;
     align-items: center;
     align-self: center;
     justify-content: space-between;
@@ -69,7 +68,9 @@ html {
     display: grid;
     overflow: auto;
     scroll-snap-type: y mandatory;
+    scroll-padding-top: 6rem;
     height: 100vh;
+    padding-top: 6rem;
 }
 
 .logo img {
@@ -88,6 +89,7 @@ html {
     overflow: auto;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+    scroll-padding-block-start: 6rem;
 }
 
 .intro{
@@ -97,6 +99,8 @@ html {
     background-image: url("/Grafika/HUB_1_w1200px.png");
     background-repeat: no-repeat;
     background-position: 90% 0;
+    margin-top: 6rem;
+    
     /* margin-bottom: 3rem; */
 }
 
@@ -106,7 +110,7 @@ html {
 }
 
 .desc{
-    height: 85vh;
+    height: calc(100vh - 6rem);
     background-color: #EFFFFB;
     color: #272727;
 }
@@ -118,17 +122,25 @@ html {
     margin-top: 6rem;
 }
 
-.copyright{
-    background-color: #272727;
-    height: 10vh;
+.contact{
+    height: 15vh;
+    background-image: url("/Grafika/HUB_1_w800px.png");
+    background-repeat: no-repeat;
+    background-size: 9vh;
+    background-position: center;
 }
 
 .backpage{
-    height: 4vh;
+    height: 5vh;
+    font-size: 14px;
+    align-content: center;
+    justify-content: center;
 }
 
 .footer{
-    height: 15vh;
+    background-color: #272727;
+    color: #EFFFFB;
+    height: 20vh;
     scroll-snap-align: end;
 }
 
