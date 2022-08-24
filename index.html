@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,31 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script     src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 </head>
 <body>
     <header>
-        <nav class="navbar">
-                <a href="/" class="logo" id="hub_logo">
-                    <img src="Grafika/HUB_1_w800px.png"></img>
-                </a>
-                <ul class="menu_items">
-                    <li class="menu_item">
-                        <a href="/">Projekty</a>
-                    </li>
-                    <li class="menu_item">
-                        <a href="#calendar">Akce</a>         
-                    </li>
-                    <li class="menu_item">
-                       <a href="/">Tutoriály</a>
-                    </li>
-                    <li class="menu_item">
-                        <a href="/">Náplň</a>
-                    </li>
-                </ul>
-                <div class="lang_icon">
-                    Lang
-                </div>
-        </nav>
+        <div class id="imported_navbar"></div>
+        <script type="text/javascript">
+            $(function(){
+            $("#imported_navbar").load("navbar.html"); 
+            });
+        </script>
+           
     </header>
     <div class="mainpage">
         <div class="intro scroll">
@@ -72,17 +58,12 @@
                 </p>
             </div>
         </div>
-        <div class="footer scroll">
-            <div class="content">
-                <div class="contact">
-                    <p>Contact</p>
-                </div>
-                <hr>
-                <div class="backpage">
-                        <p>&copy; Copyright 2022 Adam Janeček</p>
-                </div>
-            </div>
-        </div>
+        <div class id="imported_footer"></div>
+        <script type="text/javascript">
+            $(function(){
+            $("#imported_footer").load("footer.html"); 
+            });
+        </script>
     </div>
 </body>
 </html>
