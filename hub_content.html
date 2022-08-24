@@ -1,35 +1,32 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hub</title>
-    <link rel="stylesheet" href="homepage.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <div class id="imported_head"></div>
+    <script type="text/javascript">
+        $(function(){
+        $("#imported_head").load("head.html"); 
+        });
+    </script></head>
 <body>
     <header>
-        
+        <div class id="imported_navbar"></div>
+        <script type="text/javascript">
+            $(function(){
+            $("#imported_navbar").load("navbar.html"); 
+            });
+        </script>
     </header>
     <div class="mainpage">
         <div class="hub-content">
 
         </div>
-        <div class="footer scroll">
-            <div class="content">
-                <div class="contact">
-                    <p>Contact</p>
-                </div>
-                <hr>
-                <div class="backpage">
-                        <p>&copy; Copyright 2022 Adam Janeček</p>
-                </div>
-            </div>
-        </div>
+        <div class id="imported_footer"></div>
+        <script type="text/javascript">
+            $(function(){
+            $("#imported_footer").load("footer.html"); 
+            });
+        </script>
     </div>
 </body>
 </html>
