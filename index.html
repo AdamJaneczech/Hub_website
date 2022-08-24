@@ -1,16 +1,12 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hub</title>
-    <link rel="stylesheet" href="homepage.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <script     src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <div class id="imported_head"></div>
+    <script type="text/javascript">
+        $(function(){
+        $("#imported_head").load("head.html"); 
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -20,7 +16,6 @@
             $("#imported_navbar").load("navbar.html"); 
             });
         </script>
-           
     </header>
     <div class="mainpage">
         <div class="intro scroll">
