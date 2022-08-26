@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <div class id="imported_head"></div>
+    <script type="text/javascript">
+        $(function(){
+        $("#imported_head").load("head.html"); 
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class id="imported_navbar"></div>
+        <script type="text/javascript">
+            $(function(){
+            $("#imported_navbar").load("navbar.html"); 
+            });
+        </script>
+    </header>
+</body>
+<div class="mainpage">
+    <div class="content scroll">
+        
+    </div>
+    <div class id="imported_footer"></div>
+    <script type="text/javascript">
+        $(function(){
+        $("#imported_footer").load("footer.html"); 
+        });
+    </script>
+</div>

@@ -1,0 +1,50 @@
+#topics{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 6rem;
+}
+
+.container h2{
+    font-size: 3.5rem;
+}
+
+.container p{
+    font-size: 16px;
+}
+
+.container h2, .container p, .container hr, .container a{
+    font-weight: 500;
+    padding: 3rem;
+    color: white;
+    text-decoration: none;
+}
+
+.container hr{
+    height: 4px;
+    padding: 0;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: transparent;
+    background-color: white;
+}
+
+.DDD_printer, .Arduino{
+    min-height: 300px;
+    min-width: 480px;
+    background-color: #50D890;
+    border-radius: 3.5rem;
+}
+
+.DDD_printer:hover, .Arduino:hover{
+    opacity: 30%;
+    transition: 0.5s  ease-in-out;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 0;
+}
