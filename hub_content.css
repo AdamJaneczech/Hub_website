@@ -1,40 +1,6 @@
-#topics{
-    font-size: 4rem;
-    font-weight: 600;
-    margin-top: 6rem;
-}
 
-.container h2{
-    font-size: 3.5rem;
-}
-
-.container p{
-    font-size: 16px;
-}
-
-.container h2, .container p, .container hr, .container a{
-    font-weight: 500;
-    padding: 3rem;
-    color: white;
-    text-decoration: none;
-
-}
-
-.container a{
-    padding: 0;
-}
-
-.container hr{
-    height: 4px;
-    padding: 0;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    color: transparent;
-    background-color: white;
-}
 
 .DDD_printer, .Arduino{
-    
     max-height: 480px;
     min-width: 480px;
     max-width: 600px;
@@ -46,10 +12,6 @@
     transition: 0.5s ease-in-out;
 }
 
-.DDD_printer:not(p){
-    
-}
-
 .Arduino{
     background-image: url("/Grafika/thumbnail_image_2.png");
     background-size: cover;
@@ -58,14 +20,4 @@
 
 .DDD_printer:hover, .Arduino:hover{
     background-color: transparent;
-}
-
-.container{
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: space-between;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 0;
-    gap: 5rem;
 }

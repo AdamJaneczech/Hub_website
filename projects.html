@@ -1,0 +1,66 @@
+<html lang="cz">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <div class id="imported_head"></div>
+    <script type="text/javascript">
+        $(function(){
+        $("#imported_head").load("head.html"); 
+        });
+    </script>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <header>
+        <div class id="imported_navbar"></div>
+        <script type="text/javascript">
+            $(function(){
+            $("#imported_navbar").load("navbar.html"); 
+            });
+        </script>
+    </header>
+    <div class="mainpage">
+        <div class="content">
+            <h1 id="topic">
+                Naše projekty
+            </h1>
+            <p>
+                Zde najdeš projekty, na kterých jsme pracovali a nebo právě pracujeme.
+            </p>
+            <div class="blocks container">
+                <div class="project_block">
+                    <h2>
+                        Projekt
+                    </h2>
+                    <hr>
+                    <p>
+                        Popis projektu patří zde.
+                    </p>
+                </div>
+                <div class="project_block">
+                    <h2>
+                        Projekt
+                    </h2>
+                    <hr>
+                    <p>
+                        Popis projektu patří zde.
+                    </p>
+                </div>
+                <div class="project_block">
+                    <h2>
+                        Projekt
+                    </h2>
+                    <hr>
+                    <p>
+                        Popis projektu patří zde.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class id="imported_footer"></div>
+        <script type="text/javascript">
+            $(function(){
+            $("#imported_footer").load("footer.html"); 
+            });
+        </script>
+    </div>
+</body>

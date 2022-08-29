@@ -1,0 +1,22 @@
+.blocks{
+    display: grid;
+    margin: 0 auto;
+    padding: 0 auto;
+    grid-template-columns: 2;
+    justify-content: space-between;
+}
+
+.project_block{
+    width: calc(600px - 3rem);
+    height: 300px;
+    background-color: #50D890;
+    border-radius: 2rem;
+    margin: 6rem 0;
+}
+
+.container h2, .container p, .container hr, .container a{
+    font-weight: 500;
+    padding: 3rem;
+    color: white;
+    text-decoration: none;
+}

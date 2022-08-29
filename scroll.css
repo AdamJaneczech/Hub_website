@@ -1,0 +1,11 @@
+.mainpage {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 6rem;
+}
+
+.scroll {
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+    scroll-padding-block-start: 6rem;
+}
