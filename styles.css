@@ -37,6 +37,27 @@ html {
     z-index: 2;
 }
 
+.logo{
+    display: inline-flex;
+    grid-auto-flow: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    color: #EFFFFB;
+}
+
+.logo img {
+    width: 4rem;
+    margin-left: 1rem;
+    padding: 0;
+}
+
 .menu_items {
     display: inline-flex;
     list-style: none;
@@ -86,22 +107,16 @@ html {
     z-index: 1;
 }
 
-.logo img {
-    width: 4rem;
-    margin-left: 1rem;
-    padding: 0;
-}
-
 .lang_icon {
     display: inline-flex;
-    margin: auto 3rem;
+    margin: auto 6rem;
 }
 
 .intro{
     width: 100%;
     height: 85vh;
     background-color: #272727;
-    background-image: url("/Grafika/HUB_1_w1200px.png");
+    background-image: url("/Grafika/HUB_2_w1000px.png");
     background-repeat: no-repeat;
     background-position: 90% 0;
     /* margin-top: 6rem; */
@@ -112,23 +127,27 @@ html {
     margin-left: 5px;
 }
 
-.desc{
+.cal{
     height: calc(100vh - 6rem);
     background-color: white;
     color: #272727;
 }
 
-.desc h1{
-    font-family: 'Orbitron', sans-serif;
+.cal h1{
     font-size: 5rem;
     font-weight: 600;
-    margin-top: 6rem;
+    margin-top: 3rem;
+}
+
+.cal iframe{
+    margin: 2rem 0;
 }
 
 .contact{
     display: grid;
     grid-auto-flow: column;
     align-items: center;
+    padding: 2rem 0;
 }
 
 .contact img{
@@ -159,7 +178,7 @@ html {
 
 .backpage{
     font-size: 12px;
-    padding: 1vh 0;
+    padding: 1rem 0;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -169,6 +188,12 @@ html {
     background-color: #272727;
     color: #EFFFFB;
     scroll-snap-align: end;
+}
+
+.footerbox a{
+    display: inline-block;
+    text-decoration: none;
+    color: #EFFFFB;
 }
 
 .footer hr{
