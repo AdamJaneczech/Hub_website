@@ -1,0 +1,40 @@
+body{
+    background-image: url("/Grafika/HUB_2_w1000px_gr.png");
+    background-repeat: no-repeat;
+    background-position: 90% 8rem;
+}
+
+.date_author{
+    grid-auto-flow: column;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date_author p{
+    margin-bottom: 1.5rem;
+    padding: 0;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.heading_section{
+    margin-top: 6rem;
+}
+
+.heading_section hr{
+    background-color: #272727;
+    height: 2px;
+    border-style: none;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.heading_section h1{
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.article_section{
+    margin-bottom: 6rem;
+}

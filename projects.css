@@ -9,14 +9,22 @@
 
 .project_block{
     width: calc(600px - 3rem);
-    height: 300px;
+    max-height: 480px;
+    min-width: 480px;
+    max-width: 600px;
     background-color: #50D890;
     border-radius: 3rem;
+    padding: 0;
 }
 
 .container h2, .container p, .container hr, .container a{
     font-weight: 500;
-    padding: 3rem;
     color: white;
     text-decoration: none;
+}
+
+body{
+    background-image: url("/Grafika/HUB_2_w1000px_gr.png");
+    background-repeat: no-repeat;
+    background-position: 90% 8rem;
 }

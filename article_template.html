@@ -1,0 +1,64 @@
+<html lang="cz">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <div class id="imported_head"></div>
+    <link rel="stylesheet" href="article.css">
+    <script type="text/javascript">
+        $(function(){
+        $("#imported_head").load("head.html"); 
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class id="imported_navbar"></div>
+        <script type="text/javascript">
+            $(function(){
+            $("#imported_navbar").load("navbar.html"); 
+            });
+        </script>
+    </header>
+    <div class="mainpage">
+        <div class="content">
+            <div class="heading_section">
+                <h1>Nadpis článku</h1>
+                <hr>
+                <div class="date_author">
+                    <div class="date">
+                        <p>1. 1. 2022</p>
+                    </div>
+                    <div class="author">
+                        <p>Jméno Autora</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="article_section">
+                <article>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <br>
+                </article>
+                <article>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <br>
+                </article>
+                <article>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <br>
+                </article>
+            </div>      
+        </div>
+        <div class id="imported_footer"></div>
+        <script type="text/javascript">
+            $(function(){
+            $("#imported_footer").load("footer.html"); 
+            });
+        </script>
+    </div>
+</body>
+</html>

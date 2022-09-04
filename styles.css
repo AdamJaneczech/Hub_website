@@ -130,6 +130,9 @@ html {
 .cal{
     height: calc(100vh - 6rem);
     background-color: white;
+    background-image: url("/Grafika/HUB_2_w1000px_gr.png");
+    background-repeat: no-repeat;
+    background-position: 90% -85vh;
     color: #272727;
 }
 
@@ -146,7 +149,7 @@ html {
 .contact{
     display: grid;
     grid-auto-flow: column;
-    align-items: center;
+    align-items: top;
     padding: 2rem 0;
 }
 
