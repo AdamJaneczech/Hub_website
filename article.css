@@ -4,6 +4,11 @@ body{
     background-position: 90% 8rem;
 }
 
+article p{
+    font-weight: 300;
+    font-size: 16px;
+}
+
 .date_author{
     grid-auto-flow: column;
     display: grid;
@@ -24,8 +29,8 @@ body{
 }
 
 .heading_section hr{
-    background-color: #272727;
-    height: 2px;
+    background-color: #50D890;
+    height: 3px;
     border-style: none;
     margin: 1rem 0 0.5rem 0;
 }
