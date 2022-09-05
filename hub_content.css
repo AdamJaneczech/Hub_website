@@ -16,6 +16,13 @@
     background-repeat: no-repeat;
 }
 
+.DDD_printer{
+    background-image: url("/Grafika/3D_tisk_2.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .DDD_printer:hover, .Arduino:hover{
     background-color: transparent;
 }

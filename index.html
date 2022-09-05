@@ -9,13 +9,18 @@
         });
     </script>
 </head>
-<body>
+<body class="preload">
     <header>
         <div class id="imported_navbar"></div>
         <script type="text/javascript">
             $(function(){
             $("#imported_navbar").load("navbar.html"); 
             });
+        </script>
+        <script type="text/javascript">
+            $(window).load(function() {
+            $("body").removeClass("preload");
+          });
         </script>
     </header>
     <div class="mainpage">
@@ -34,11 +39,12 @@
                         Jsi <b>nováček</b>? Mrkni, co je Hub zač.
                     </p>
                 </section>
-                <a href="hub_content.html">
+                
                     <button type="button" id="intro_button">
-                        Chci vědět víc!
+                        <a href="hub_content.html">
+                            Chci vědět víc!
+                        </a>
                     </button>
-                </a>
                 <p id="calendar_bottom">
                     Kalendář
                 </p>
