@@ -123,12 +123,12 @@ html {
     width: 100%;
     height: 85vh;
     background-color: #272727;
-    background-image: url("/Grafika/HUB_2_w1000px.png"), url("Grafika/pattern_dots.png"), url("/Grafika/thumbnail_image_2.png");
-    background-blend-mode: normal, normal, luminosity;
-    background-repeat: no-repeat, repeat, no-repeat;
-    background-size: auto, 20%, auto;
-    background-attachment: scroll, fixed, fixed;
-    background-position: 90% 0, 0 30%;
+    background-image: url("/Grafika/HUB_2_w1000px.png"), radial-gradient(circle, #272727 40%, transparent 10%), radial-gradient(circle, #272727 40%, transparent 10%), url("/Grafika/arduino_background.png");
+    background-blend-mode: normal, normal, normal, luminosity;
+    background-repeat: no-repeat, repeat, repeat, no-repeat;
+    background-size: auto, 8px 5px, 8px 5px, auto;
+    background-attachment: scroll, fixed, fixed, fixed;
+    background-position: 90% 0, 0 0, 4px 2px;
     /* margin-top: 6rem; */
 }
 

@@ -11,16 +11,17 @@
 }
 
 .Arduino{
-    background-image: url("/Grafika/thumbnail_image_2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: radial-gradient(circle, #272727 40%, transparent 10%), radial-gradient(circle, #272727 40%, transparent 10%), url("/Grafika/thumbnail_image_2.png");
+    background-position: 0 0, 4px 2px, center bottom;
+    background-size: 8px 5px, 8px 5px,cover;
+    background-repeat: repeat, repeat, no-repeat;
 }
 
 .DDD_printer{
-    background-image: url("/Grafika/3D_tisk_2.jpg");
-    background-position: center bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: radial-gradient(circle, #272727 40%, transparent 10%), radial-gradient(circle, #272727 40%, transparent 10%), url("/Grafika/3D_tisk_2.jpg");
+    background-position: 0 0, 4px 2px, center bottom;
+    background-size: 8px 5px, 8px 5px,cover;
+    background-repeat: repeat, repeat, no-repeat;
 }
 
 .DDD_printer:hover, .Arduino:hover{
