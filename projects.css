@@ -24,7 +24,7 @@
 }
 
 body{
-    background-image: url("/Grafika/HUB_2_w1000px_gr.png");
+    background-image: url("./Grafika/HUB_2_w1000px_gr.png");
     background-repeat: no-repeat;
     background-position: 90% 8rem;
 }
