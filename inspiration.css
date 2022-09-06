@@ -1,0 +1,15 @@
+body{
+    background-image: url("./Grafika/HUB_2_w1000px_gr.png");
+    background-repeat: no-repeat;
+    background-position: 90% 8rem;
+}
+
+article p{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#topic{
+    font-weight: 600;
+    font-size: 3.5rem;
+}
