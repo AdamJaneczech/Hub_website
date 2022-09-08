@@ -119,6 +119,18 @@ html {
     margin: auto 6rem;
 }
 
+/*the navbar image background should be activated when on top only*/
+
+.navbar, .footer{
+    background-color: #272727;
+    background-image: radial-gradient(circle, #272727 40%, transparent 10%), radial-gradient(circle, #272727 40%, transparent 10%), url("./Grafika/arduino_background.png");
+    background-blend-mode: normal, normal, luminosity;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: 8px 5px, 8px 5px, auto;
+    background-attachment: fixed, fixed, fixed;
+    background-position: 0 0, 4px 2px, 0 0;
+}
+
 .intro{
     width: 100%;
     height: 85vh;
@@ -128,7 +140,7 @@ html {
     background-repeat: no-repeat, repeat, repeat, no-repeat;
     background-size: auto, 8px 5px, 8px 5px, auto;
     background-attachment: scroll, fixed, fixed, fixed;
-    background-position: 90% 0, 0 0, 4px 2px;
+    background-position: 90% 0, 0 0, 4px 2px, 0 0;
     /* margin-top: 6rem; */
 }
 
@@ -276,6 +288,7 @@ html {
     margin-top: 3em;
     font-size: 18px;
     width: 62.5%;
+    text-shadow: 2px 2px 5px #272727;
 }
 
 #intro_button{
@@ -285,7 +298,7 @@ html {
     border-style: none;
     border-radius: 2rem;
     cursor: pointer;  
-    background-color: #EFFFFB;
+    background-color: white;
     transition: 0.5s ease-out;
 }
 
@@ -298,7 +311,7 @@ html {
 #intro_button:hover{
     transition: 0.5s ease-out;
     box-shadow: 0.75rem 0.75rem #50D890;
-    background-color: #EFFFFB;
+    background-color: white;
     opacity: 0.8;
 }
 
