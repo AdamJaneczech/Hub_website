@@ -1,5 +1,5 @@
 .mainpage {
-    overflow: auto;
+    overflow: visible; /*schange to "auto" & the snap scroll starts working, but the background remains the same*/
     scroll-snap-type: y mandatory;
     scroll-padding-top: 6rem;
 }

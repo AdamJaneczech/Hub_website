@@ -4,6 +4,37 @@ body{
     background-position: 90% 8rem;
 }
 
+.inspiration{
+    margin-top: 3rem;
+}
+
+.inspiration h2{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.inspiration h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.other{
+    margin-bottom: 3rem;
+}
+
+.main_content h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.insp_section{
+    margin-top: 1.5rem;
+}
+
+.insp_link{
+    margin-top: 1rem;
+}
+
 article p{
     font-weight: 300;
     font-size: 16px;
