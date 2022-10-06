@@ -177,7 +177,8 @@ html {
 
 .contact img{
     width: 5rem;
-    margin-left: -75px;
+    margin-left: -25px;
+    margin-top: 15px;
 }
 
 .contact h1{
