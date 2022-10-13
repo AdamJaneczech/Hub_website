@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,11 +24,10 @@ html {
     width: 1200px;
     margin: 0 auto;
     align-self: center;
-    align-items: center;
     display: grid;
 }
 
-.content p{
+.content p {
     font-size: 18px;
 }
 
@@ -35,8 +35,8 @@ html {
     display: flex;
     position: fixed;
     align-items: center;
-    align-self: center;
-    justify-content: space-between;
+    align-content: center;
+    /* justify-content: space-between; */
     height: 6rem;
     width: 100%;
     color: white;
@@ -44,14 +44,14 @@ html {
     z-index: 2;
 }
 
-.logo{
+.logo {
     display: inline-flex;
     grid-auto-flow: row;
     align-items: center;
     text-decoration: none;
 }
 
-.logo h1{
+.logo h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 3rem;
     font-weight: 600;
@@ -70,13 +70,16 @@ html {
     list-style: none;
     justify-content: space-between;
     max-width: 62.5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu_item {
     display: block;
     font-size: 18px;
     margin: 0 2em;
-    padding: 1rem 1rem;/* 
+    padding: 1rem 1rem;
+    /* 
     background-color: #50D890; */
 }
 
@@ -88,7 +91,7 @@ html {
     color: inherit;
 }
 
-.menu_item a::before{
+.menu_item a::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -103,8 +106,8 @@ html {
 
 .menu_item a:hover::before,
 .menu_item a:focus::before {
-  transform: scaleX(1);
-  transform-origin: left;
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 .mainpage {
@@ -121,9 +124,10 @@ html {
 
 /*the navbar image background should be activated when on top only*/
 
-.navbar, .footer{
+.navbar,
+.footer {
     background-color: #272727;
-    background-image:url("./Grafika/arduino_background.png");
+    background-image: url("./Grafika/arduino_background.png");
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-size: auto;
@@ -131,9 +135,10 @@ html {
     background-position: 0 0;
 }
 
-.intro{
+.intro {
     width: 100%;
-    height: 85vh;
+    height: 83vh;
+    display: grid;
     background-color: #272727;
     background-image: url("./Grafika/HUB_3_w1000px.png"), url("./Grafika/arduino_background.png");
     background-blend-mode: normal, luminosity;
@@ -141,7 +146,7 @@ html {
     background-size: auto, auto;
     background-attachment: scroll, fixed;
     background-position: 90% 0, 0 0;
-    /* margin-top: 6rem; */
+    align-items: calc(center + 120px);
 }
 
 .intro p {
@@ -149,7 +154,7 @@ html {
     margin-left: 5px;
 }
 
-.cal{
+.cal {
     height: calc(100vh - 6rem);
     background-color: white;
     background-image: url("./Grafika/HUB_2_w1000px_gr.png");
@@ -158,51 +163,51 @@ html {
     color: #272727;
 }
 
-.cal h1{
+.cal h1 {
     font-size: 5rem;
     font-weight: 600;
-    margin-top: 6vh;
+    margin-top: 6rem;
 }
 
-.cal iframe{
+.cal iframe {
     margin: 2rem 0;
 }
 
-.contact{
+.contact {
     display: grid;
     grid-auto-flow: column;
     align-items: top;
     padding: 2rem 0;
 }
 
-.contact img{
+.contact img {
     width: 5rem;
     margin-left: -25px;
     margin-top: 15px;
 }
 
-.contact h1{
+.contact h1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 5rem;
     font-weight: 600;
 }
 
-.contact p{
+.contact p {
     font-size: 14px;
 }
 
-.logo_space{
+.logo_space {
     width: fit-content;
 }
 
-.logo_space p{
+.logo_space p {
     margin-left: 3px;
     margin-top: -0.75rem;
     font-size: 12px;
     padding-bottom: 1rem;
 }
 
-.backpage{
+.backpage {
     font-size: 12px;
     padding: 1rem 0;
     text-align: center;
@@ -210,33 +215,38 @@ html {
     align-items: center;
 }
 
-.footer{
+.footer {
     background-color: #272727;
     color: white;
     scroll-snap-align: end;
     bottom: 0;
 }
 
-.footerbox a{
+.footerbox a {
     display: inline-block;
     text-decoration: none;
     color: white;
 }
 
-.footer hr{
+.footer hr {
     color: #50D890;
     background-color: #50D890;
     height: 4px;
 }
 
 @keyframes typing_motto {
-    from { width: 0 }
-    to { width: 12em}
+    from {
+        width: 0
+    }
+
+    to {
+        width: 12em
+    }
 }
 
-.background_overflow{
+.background_overflow {
     background-color: #272727;
-    background-image:url("./Grafika/arduino_background.png");
+    background-image: url("./Grafika/arduino_background.png");
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-size: auto;
@@ -246,12 +256,12 @@ html {
     color: white;
 }
 
-.stripe{
+.stripe {
     height: 0.3rem;
     background-color: #50D890;
 }
 
-.container{
+.container {
     display: grid;
     grid-auto-flow: column;
     justify-content: space-between;
@@ -261,26 +271,29 @@ html {
     gap: 5rem;
 }
 
-.container h2{
+.container h2 {
     font-size: 3.5rem;
 }
 
-.container p{
+.container p {
     font-size: 16px;
 }
 
-.container h2, .container p, .container hr, .container a{
+.container h2,
+.container p,
+.container hr,
+.container a {
     font-weight: 500;
     padding: 3rem;
     color: white;
     text-decoration: none;
 }
 
-.container a{
+.container a {
     padding: 0;
 }
 
-.container hr{
+.container hr {
     height: 4px;
     padding: 0;
     margin-left: 3rem;
@@ -309,24 +322,25 @@ html {
     text-shadow: 2px 2px 5px #272727;
 }
 
-#intro_button{
+#intro_button {
     margin-top: 2rem;
     padding: 1rem;
     width: fit-content;
     border-style: none;
     border-radius: 2rem;
-    cursor: pointer;  
+    cursor: pointer;
     background-color: white;
     transition: 0.5s ease-out;
+    margin-bottom: 6rem;
 }
 
-#intro_button a{
+#intro_button a {
     font-size: 20px;
     text-decoration: none;
     color: #272727;
 }
 
-#intro_button:hover{
+#intro_button:hover {
     transition: 0.5s ease-out;
     box-shadow: 0.75rem 0.75rem #50D890;
     background-color: white;
@@ -334,13 +348,17 @@ html {
 }
 
 @keyframes typing_hub {
-    from { width: 0 }
-    to { width: 2em }
+    from {
+        width: 0
+    }
+
+    to {
+        width: 2em
+    }
 }
-  
+
 
 #hub_big {
-    margin-top: 100px;
     font-family: 'Orbitron', sans-serif;
     font-size: 10rem;
     color: white;
@@ -349,14 +367,14 @@ html {
     animation: typing_hub 0.2s steps(3, end) forwards;
 }
 
-#calendar_bottom{
+#calendar_bottom {
     text-align: center;
     font-size: 40px;
     font-weight: 400;
     margin-top: 13vh;
 }
 
-#topic{
+#topic {
     font-size: 4rem;
     font-weight: 600;
     margin-top: 6rem;
