@@ -42,6 +42,7 @@ html {
     color: white;
     background-color: #272727;
     z-index: 2;
+    transition: all 0.3s ease
 }
 
 .logo {
@@ -159,7 +160,7 @@ html {
     background-color: white;
     background-image: url("./Grafika/HUB_2_w1000px_gr.png");
     background-repeat: no-repeat;
-    background-position: 90% -85vh;
+    background-position: 90% -83vh;
     color: #272727;
 }
 
