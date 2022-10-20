@@ -10,14 +10,18 @@
 }
 
 .preload * {
-    -webkit-transition: none !important;
+    /* -webkit-transition: none !important;
     -moz-transition: none !important;
     -ms-transition: none !important;
-    -o-transition: none !important;
+    -o-transition: none !important; */
 }
 
 html {
     font-size: 14px;
+}
+
+header{
+    -moz-transition: all 1s linear 0s;
 }
 
 .content {
@@ -40,9 +44,18 @@ html {
     height: 6rem;
     width: 100%;
     color: white;
-    background-color: #272727;
     z-index: 2;
-    transition: all 0.3s ease
+    -moz-transition: background-color 1s linear 0s;
+}
+
+.navbar.topped{
+    -moz-transition: background-color 1s linear 0s;
+}
+
+.navbar.scrolled{
+    background-image: none;
+    background-color: #272727;
+    -moz-transition: background-color 1s linear 0s;
 }
 
 .logo {

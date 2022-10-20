@@ -2,14 +2,12 @@ $(document).ready(function(){
     $(window).scroll(function(){
       var scroll = $(window).scrollTop();
         if (scroll > 1) {
-          $(".navbar").css("background" , "#272727");
+          $('.navbar').removeClass("topped");
+          $('.navbar').addClass("scrolled");
         }
         else{
-            $(".navbar").css({"background-image" : "url(\"./Grafika/arduino_background.png\")"});   
-            $(".navbar").css({"background-blend-mode" : "luminosity"});
-            $(".navbar").css({"background-size" : "auto"});
-            $(".navbar").css({"background-attachment" : "fixed"});
-            $(".navbar").css({"background-position" : "0 0"});
-          }
+          $('.navbar').removeClass("scrolled");
+          $('.navbar').addClass("topped");
+        }
     })
   })
