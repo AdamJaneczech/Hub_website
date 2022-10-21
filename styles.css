@@ -283,7 +283,7 @@ header{
 
 .container {
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: auto auto;
     justify-content: space-between;
     margin-top: 6rem;
     margin-bottom: 6rem;

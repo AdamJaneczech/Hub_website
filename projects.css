@@ -1,20 +1,26 @@
 .blocks{
     display: grid;
+    gap: 60px 60px;
     margin-bottom: 6rem;
     padding: 0 auto;
-    grid-template-columns: calc(600px - 3rem);
-    grid-template-rows: 300px 300px;
+    grid-auto-rows: max-content;
     justify-content: space-between;
 }
 
 .project_block{
-    width: calc(600px - 3rem);
     max-height: 480px;
     min-width: 480px;
-    max-width: 600px;
-    background-color: #50D890;
-    border-radius: 3rem;
+    max-width: 1200px;
+    background: linear-gradient(0deg, rgba(39 39 39 / 100%), rgba(39 39 39 / 61%)), url(/Grafika/thumbnail_image_2.png);
+    background-size: cover;
+    border-style: 3px solid #50D890;
     padding: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.project_block:hover{
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(80 216 144 / 100%), rgba(39 39 39 / 61%)), url(/Grafika/thumbnail_image_2.png);
 }
 
 .container h2, .container p, .container hr, .container a{
