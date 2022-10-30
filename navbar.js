@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(window).scroll(function(){
       var scroll = $(window).scrollTop();
-        if (scroll > 1) {
+        if (scroll > 84) {
           $('.navbar').removeClass("topped");
           $('.navbar').addClass("scrolled");
         }
