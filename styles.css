@@ -35,6 +35,17 @@ header{
     font-size: 18px;
 }
 
+.navbar.topped{
+    transition: all 1s ease-in-out;
+    background-color: blue;
+}
+
+.navbar.scrolled{
+    background-image: none;
+    background-color: #272727;
+    transition: all 1s ease-in-out;
+}
+
 .navbar {
     display: flex;
     position: fixed;
@@ -45,17 +56,12 @@ header{
     width: 100%;
     color: white;
     z-index: 2;
-    -moz-transition: background-color 1s linear 0s;
+    background-color: blue;
 }
 
-.navbar.topped{
-    -moz-transition: background-color 1s linear 0s;
-}
-
-.navbar.scrolled{
+.navbar:hover{
     background-image: none;
     background-color: #272727;
-    -moz-transition: background-color 1s linear 0s;
 }
 
 .logo {
