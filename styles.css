@@ -21,7 +21,7 @@ html {
 }
 
 header{
-    -moz-transition: all 1s linear 0s;
+    /* -moz-transition: all 1s linear 0s; */
 }
 
 .content {
