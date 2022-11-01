@@ -42,6 +42,7 @@ header{
 .navbar.scrolled{
     background: #272727;
     transition: all 0.5s ease-in-out;
+    box-shadow: 0 5px #50D890;
     height: 6rem;
 }
 
