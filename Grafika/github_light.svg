@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1240 925"
+   version="1.1"
+   id="svg691"
+   sodipodi:docname="github_light.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview693"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.3621622"
+     inkscape:cx="191.60714"
+     inkscape:cy="731.19048"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg691" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#262626;}.cls-2,.cls-3{fill:#fff;}.cls-3{fill-rule:evenodd;}.cls-4{fill:#929292;}.cls-5{fill:#25d366;}.cls-6{fill:#ee1d52;}.cls-7{fill:#69c9d0;}.cls-8{fill:#e52d27;}.cls-9{fill:#d41d20;}.cls-10{fill:#55acee;}.cls-11{fill:#3b445c;}.cls-12{fill:#ea4b24;}.cls-13{fill:#ffea00;}.cls-14{fill:#ff4500;}.cls-15{fill:#bd081c;}.cls-16{fill:#0076b2;}.cls-17{fill:#d50060;}.cls-18{fill:#dc4b3e;}.cls-19{fill:#3f91cb;}.cls-20{fill:#3a5a99;}.cls-21{fill:#ea4c89;}.cls-22{fill:#05cc47;}.cls-23{fill:#1d6fed;}</style>
+  </defs>
+  <title
+     id="title6">social-media-icons-all-updated-tiktok</title>
+  <g
+     id="Linkedin-8"
+     data-name="Linkedin">
+    <path
+       class="cls-2"
+       d="m 124.31,769.36 h 9.87 v 31.74 h -9.87 z m 4.94,-15.77 a 5.72,5.72 0 1 1 -5.72,5.72 5.72,5.72 0 0 1 5.72,-5.72"
+       id="path408" />
+    <path
+       class="cls-2"
+       d="m 140.37,769.36 h 9.45 v 4.34 H 150 a 10.36,10.36 0 0 1 9.33,-5.12 c 10,0 11.83,6.57 11.83,15.11 v 17.41 h -9.86 v -15.43 c 0,-3.68 -0.06,-8.42 -5.12,-8.42 -5.06,0 -5.92,4 -5.92,8.15 v 15.7 h -9.85 z"
+       id="path410" />
+  </g>
+  <circle
+     id="back-67"
+     data-name="back"
+     class="cls-1"
+     cx="462.5"
+     cy="672.5"
+     r="42.5"
+     style="fill:#50d890;fill-opacity:1" />
+  <g
+     id="Github-8"
+     data-name="Github">
+    <path
+       class="cls-3"
+       d="m 462.5,649.29 a 23.8,23.8 0 0 0 -7.5,46.38 c 1.19,0.22 1.62,-0.52 1.62,-1.14 0,-0.62 0,-2.45 0,-4.43 -6.62,1.43 -8,-2.81 -8,-2.81 -1.08,-2.75 -2.64,-3.49 -2.64,-3.49 -2.16,-1.47 0.16,-1.44 0.16,-1.44 a 5,5 0 0 1 3.65,2.45 c 2.12,3.64 5.57,2.59 6.93,2 a 5,5 0 0 1 1.51,-3.18 c -5.29,-0.6 -10.85,-2.65 -10.85,-11.77 a 9.17,9.17 0 0 1 2.46,-6.38 8.5,8.5 0 0 1 0.23,-6.3 c 0,0 2,-0.64 6.54,2.44 a 22.6,22.6 0 0 1 11.92,0 c 4.55,-3.08 6.54,-2.44 6.54,-2.44 a 8.5,8.5 0 0 1 0.23,6.3 9.16,9.16 0 0 1 2.45,6.38 c 0,9.15 -5.56,11.16 -10.86,11.75 a 5.7,5.7 0 0 1 1.61,4.41 c 0,3.18 0,5.74 0,6.53 0,0.63 0.43,1.37 1.64,1.14 a 23.8,23.8 0 0 0 -7.54,-46.38 z"
+       id="path430" />
+    <path
+       class="cls-2"
+       d="m 447.71,683.46 c 0,0.12 -0.23,0.15 -0.4,0.07 -0.17,-0.08 -0.27,-0.24 -0.22,-0.36 0.05,-0.12 0.24,-0.15 0.41,-0.07 0.17,0.08 0.27,0.24 0.21,0.36 z m -0.29,-0.22"
+       id="path432" />
+    <path
+       class="cls-2"
+       d="m 448.68,684.53 c -0.11,0.11 -0.34,0.06 -0.49,-0.11 a 0.37,0.37 0 0 1 -0.07,-0.49 c 0.12,-0.11 0.33,-0.06 0.49,0.11 0.16,0.17 0.19,0.39 0.07,0.49 z m -0.23,-0.24"
+       id="path434" />
+    <path
+       class="cls-2"
+       d="m 449.62,685.91 c -0.15,0.1 -0.39,0 -0.53,-0.21 -0.14,-0.21 -0.15,-0.47 0,-0.57 0.15,-0.1 0.38,0 0.53,0.2 0.15,0.2 0.15,0.47 0,0.58 z m 0,0"
+       id="path436" />
+    <path
+       class="cls-2"
+       d="m 450.9,687.23 c -0.13,0.14 -0.41,0.1 -0.61,-0.09 -0.2,-0.19 -0.27,-0.47 -0.13,-0.61 0.14,-0.14 0.41,-0.1 0.61,0.09 0.2,0.19 0.27,0.47 0.13,0.61 z m 0,0"
+       id="path438" />
+    <path
+       class="cls-2"
+       d="m 452.68,688 c -0.06,0.18 -0.33,0.27 -0.6,0.19 -0.27,-0.08 -0.44,-0.3 -0.39,-0.49 0.05,-0.19 0.33,-0.27 0.6,-0.19 0.27,0.08 0.44,0.3 0.39,0.49 z m 0,0"
+       id="path440" />
+    <path
+       class="cls-2"
+       d="m 454.62,688.14 c 0,0.2 -0.22,0.36 -0.5,0.36 -0.28,0 -0.52,-0.15 -0.52,-0.34 0,-0.19 0.22,-0.36 0.51,-0.37 0.29,-0.01 0.51,0.16 0.51,0.35 z m 0,0"
+       id="path442" />
+    <path
+       class="cls-2"
+       d="m 456.44,687.83 c 0,0.19 -0.17,0.39 -0.45,0.44 -0.28,0.05 -0.53,-0.06 -0.56,-0.25 -0.03,-0.19 0.16,-0.4 0.44,-0.45 0.28,-0.05 0.53,0.07 0.57,0.26 z m 0,0"
+       id="path444" />
+  </g>
+  <metadata
+     id="metadata1510">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>social-media-icons-all-updated-tiktok</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

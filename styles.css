@@ -92,9 +92,7 @@ header{
     display: block;
     font-size: 18px;
     margin: 0 2em;
-    padding: 1rem 1rem;
-    /* 
-    background-color: #50D890; */
+    padding: 0.5rem 0.25rem;
 }
 
 .menu_item a {
@@ -236,12 +234,25 @@ header{
     bottom: 0;
 }
 
-.footerbox a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
+.footerbox{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
+.footerbox a {
+    display: inline-block;
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #50D890;
+    text-underline-offset: 2px;
+    font-weight: bold;
+}
+
+.socials{
+    display: grid;
+    grid-auto-flow: column;
+}
 .footer hr {
     color: #50D890;
     background-color: #50D890;
@@ -377,7 +388,6 @@ header{
     }
 }
 
-
 #hub_big {
     font-family: 'Orbitron', sans-serif;
     font-size: 10rem;
@@ -398,4 +408,12 @@ header{
     font-size: 4rem;
     font-weight: 600;
     margin-top: 6rem;
+}
+
+#social_media_icon{
+    margin-top: 0.5rem;
+    margin-inline: 0;
+    width: 3rem;
+    border: 3px solid #50D890;
+    border-radius: 50%;
 }
