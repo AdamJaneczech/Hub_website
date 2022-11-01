@@ -35,15 +35,14 @@ header{
     font-size: 18px;
 }
 
-.navbar.topped{
-    background-color: blue;
-    transition: all 0.5s ease-in-out;
+.spacer{
+    height: 6rem;
 }
 
 .navbar.scrolled{
-    background-image: none;
-    background-color: #272727;
+    background: #272727;
     transition: all 0.5s ease-in-out;
+    height: 6rem;
 }
 
 .navbar {
@@ -52,10 +51,15 @@ header{
     align-items: center;
     align-content: center;
     /* justify-content: space-between; */
-    height: 6rem;
+    height: 8rem;
     width: 100%;
     color: white;
     z-index: 2;
+}
+
+.navbar.topped{
+    background: transparent;
+    transition: all 0.5s ease-in-out;
 }
 
 .logo {
@@ -125,7 +129,6 @@ header{
 .mainpage {
     display: grid;
     height: 100vh;
-    padding-top: 6rem;
     z-index: 1;
 }
 
@@ -147,9 +150,10 @@ header{
     background-position: 0 0;
 }
 
+
 .intro {
     width: 100%;
-    height: 83vh;
+    height: calc(83vh + 8rem);
     display: grid;
     background-color: #272727;
     background-image: url("./Grafika/HUB_3_w1000px.png"), url("./Grafika/arduino_background.png");
@@ -157,8 +161,13 @@ header{
     background-repeat: no-repeat, no-repeat;
     background-size: auto, cover;
     background-attachment: scroll, fixed;
-    background-position: 90% 0, 0 0;
+    background-position: 90% 8rem, 0 0;
     align-items: calc(center + 120px);
+    padding-top: 8rem;
+}
+
+.intro, .background_overflow{
+    padding-top: 6rem;
 }
 
 .intro p {
