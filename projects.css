@@ -8,7 +8,7 @@
 }
 
 .project_block:hover{
-    background: linear-gradient(0deg, rgba(80 216 144 / 100%), rgba(39 39 39 / 61%)), url(/Grafika/thumbnail_image_2.png);
+    background: linear-gradient(0deg, rgba(80 216 144 / 100%), rgba(39 39 39 / 61%)), url(./Grafika/thumbnail_image_2.png);
 }
 
 .project_block{
@@ -16,7 +16,7 @@
     max-height: 480px;
     min-width: 480px;
     max-width: 1200px;
-    background: linear-gradient(0deg, rgba(39 39 39 / 100%), rgba(39 39 39 / 61%)), url(/Grafika/thumbnail_image_2.png);
+    background: linear-gradient(0deg, rgba(39 39 39 / 100%), rgba(39 39 39 / 61%)), url(./Grafika/thumbnail_image_2.png);
     background-size: cover;
 }
 
