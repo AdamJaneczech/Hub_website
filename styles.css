@@ -140,11 +140,10 @@ header{
 
 /*the navbar image background should be activated when on top only*/
 
-.navbar,
 .footer {
     background-color: #272727;
-    background-image: url("./Grafika/arduino_background.png");
-    background-blend-mode: luminosity;
+    background-image: url("./Grafika/Hub_image_1.jpg");
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -157,8 +156,8 @@ header{
     height: calc(83vh + 8rem);
     display: grid;
     background-color: #272727;
-    background-image: url("./Grafika/HUB_3_w1000px.png"), url("./Grafika/arduino_background.png");
-    background-blend-mode: normal, luminosity;
+    background-image: url("./Grafika/HUB_3_w1000px.png"), url("./Grafika/Hub_image_1.jpg");
+    background-blend-mode: normal, overlay;
     background-repeat: no-repeat, no-repeat;
     background-size: auto, cover;
     background-attachment: scroll, fixed;
@@ -280,13 +279,10 @@ header{
 }
 
 .background_overflow {
-    background-color: #272727;
-    background-image: url("./Grafika/arduino_background.png");
-    background-blend-mode: luminosity;
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 0 0;
     padding-bottom: 4rem;
     color: white;
 }

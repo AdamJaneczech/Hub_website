@@ -1,3 +1,13 @@
+.background_overflow {
+    background-color: #272727;
+    background-image: url("./Grafika/Hub_image_2.jpg");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 45%;
+}
+
 .blocks{
     display: grid;
     gap: 60px 60px;
@@ -8,7 +18,8 @@
 }
 
 .project_block:hover{
-    background: linear-gradient(0deg, rgba(80 216 144 / 100%), rgba(39 39 39 / 61%)), url(./Grafika/thumbnail_image_2.png);
+    transition: all 0.5s ease-in-out;
+    background-color: #27272764;
 }
 
 .project_block{
@@ -16,7 +27,10 @@
     max-height: 480px;
     min-width: 480px;
     max-width: 1200px;
-    background: linear-gradient(0deg, rgba(39 39 39 / 100%), rgba(39 39 39 / 61%)), url(./Grafika/thumbnail_image_2.png);
+    background-color: #272727;
+    background-blend-mode: overlay;
+    background-size: contain;
+    background-image: url(./Grafika/thumbnail_image_2.png);
     background-size: cover;
 }
 
@@ -27,7 +41,7 @@
 }
 
 body{
-    background-image: url("./Grafika/HUB_2_w1000px_gr.png");
+    background-image: url(./Grafika/HUB_2_w1000px_gr.png);
     background-repeat: no-repeat;
     background-position: 90% 8rem;
     background-attachment: fixed;

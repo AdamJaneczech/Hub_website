@@ -5,6 +5,12 @@ body{
     background-attachment: fixed;
 }
 
+.background_overflow {
+    background-color: #272727;
+    background-image: url("./Grafika/Hub_image_3.jpg");
+    background-position: 0 100%;
+}
+
 .inspiration{
     margin-top: 3rem;
 }
