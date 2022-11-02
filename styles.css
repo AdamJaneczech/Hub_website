@@ -72,16 +72,8 @@ header{
     text-decoration: none;
 }
 
-.logo h1 {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 3rem;
-    font-weight: 600;
-    margin-left: 1rem;
-    color: white;
-}
-
 .logo img {
-    width: 4rem;
+    width: 10rem;
     margin-left: 1rem;
     padding: 0;
 }
@@ -116,7 +108,7 @@ header{
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 0.2em;
+    height: 0.2rem;
     background-color: #50D890;
     transform: scaleX(0);
     transform-origin: right;
@@ -137,7 +129,8 @@ header{
 
 .lang_icon {
     display: inline-flex;
-    margin: auto 6rem;
+    width: 10rem;
+    margin-right: 1rem;
 }
 
 /*the navbar image background should be activated when on top only*/

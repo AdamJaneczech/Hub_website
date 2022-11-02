@@ -2,16 +2,16 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="2322.5017"
-   height="768.00006"
-   viewBox="0 0 614.49525 203.2"
+   width="2370.4985"
+   height="768"
+   viewBox="0 0 627.19441 203.19998"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="HUB_3_gc.svg"
-   inkscape:export-filename="/media/adam/F02E98EF2E98B058/Users/majan/DATA/Hub/Web/Grafika/HUB_3_full.png"
-   inkscape:export-xdpi="84.666664"
-   inkscape:export-ydpi="84.666664"
+   inkscape:export-filename="/media/adam/F02E98EF2E98B058/Users/majan/DATA/Hub/Web/Grafika/HUB_3_gc.png"
+   inkscape:export-xdpi="77.75"
+   inkscape:export-ydpi="77.75"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -27,8 +27,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.34790058"
-     inkscape:cx="1210.1158"
-     inkscape:cy="77.608379"
+     inkscape:cx="1115.2611"
+     inkscape:cy="313.3079"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
      inkscape:window-x="1920"
@@ -51,16 +51,16 @@
      inkscape:label="Vrstva 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-229.22709,-91.663037)">
+     transform="translate(-434.05884,-159.39638)">
     <g
        id="g32245"
        transform="translate(36.133978,-7.5331402)">
       <g
-         id="g934"
-         transform="translate(204.83175,67.733339)">
+         id="g1071"
+         transform="translate(209.06479,67.733335)">
         <g
            id="g32220"
-           transform="matrix(1.1288889,0,0,1.1288889,-24.389014,-12.426074)">
+           transform="matrix(1.1288889,0,0,1.1288889,180.44274,55.307265)">
           <g
              id="g2756"
              transform="translate(464.51248,15)">
@@ -97,25 +97,25 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:65.974px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.268815"
-           x="267.11639"
-           y="149.99617"
+           x="476.18143"
+           y="217.72951"
            id="text6324"><tspan
              sodipodi:role="line"
              id="tspan6322"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65.974px;font-family:Orbitron;-inkscape-font-specification:'Orbitron Bold';fill:#ffffff;stroke-width:0.268815"
-             x="267.11639"
-             y="149.99617">hub</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:65.974px;font-family:Orbitron;-inkscape-font-specification:'Orbitron Ultra-Bold';fill:#ffffff;stroke-width:0.268815"
+             x="476.18143"
+             y="217.72951">hub</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:11.3057px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.282642"
-           x="269.83133"
-           y="163.96742"
+           x="478.89636"
+           y="231.70076"
            id="text20916"><tspan
              sodipodi:role="line"
              id="tspan20914"
              style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Medium';fill:#ffffff;stroke-width:0.282642"
-             x="269.83133"
-             y="163.96742">Místo pro tvoje tvoření.</tspan></text>
+             x="478.89636"
+             y="231.70076">Místo pro tvoje tvoření.</tspan></text>
       </g>
     </g>
   </g>
