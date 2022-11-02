@@ -6,7 +6,6 @@ body{
 }
 
 .background_overflow {
-    background-color: #272727;
     background-image: url("./Grafika/Hub_image_3.jpg");
     background-position: 0 100%;
 }
@@ -74,5 +73,5 @@ article p{
 
 #topic{
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
