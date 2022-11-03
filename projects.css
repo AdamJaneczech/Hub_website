@@ -17,20 +17,22 @@
     justify-content: space-between;
 }
 
-.project_block:hover{
+.project_block:hover, .topic_block:hover{
     transition: all 0.5s ease-in-out;
     background-color: #27272788;
+    box-shadow: 10px 10px #50D890;
 }
 
-.project_block{
+.project_block, .topic_block{
+    display: grid;
     transition: all 0.5s ease-in-out;
-    max-height: 480px;
-    min-width: 480px;
-    max-width: 1200px;
     background-color: #272727;
     background-blend-mode: overlay;
     background-size: cover;
     border-radius: 1rem;
+    box-shadow: 0;
+    width: 570px;
+    height: auto;
 }
 
 .container h2, .container p, .container hr, .container a{
@@ -39,9 +41,29 @@
     text-decoration: none;
 }
 
+.category.container{
+    grid-auto-flow: column;
+    column-gap: 0.5rem;
+    justify-content: right;
+    margin: 1rem 3rem 1rem auto;
+}
+
 body{
     background-image: url(./Grafika/HUB_2_w1000px_gr.png);
     background-repeat: no-repeat;
     background-position: 90% 8rem;
     background-attachment: fixed;
+}
+
+.project_category{
+    padding: 0.25rem 0.5rem;
+    width: fit-content;
+    border-radius: 0.15rem;
+    background-color: #4F98CA;
+    align-self: center;
+}
+
+.project_category p{
+    font-size: 14px;
+    font-weight: 600;
 }

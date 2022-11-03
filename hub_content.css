@@ -1,3 +1,10 @@
+.topics.project_title{
+    font-weight: 500;
+    padding: 3rem;
+    color: white;
+    text-decoration: none;
+}
+
 .background_overflow {
     background-color: #272727;
     background-image: url("./Grafika/Hub_image_5.jpg");

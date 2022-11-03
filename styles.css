@@ -288,6 +288,7 @@ header{
     height: 0.3rem;
     background-color: #50D890;
 }
+
 .graystripe{
     height: 0.1rem;
     background-color: #272727;
@@ -295,7 +296,7 @@ header{
     margin-bottom: 4rem;
 }
 
-.container {
+.blocks.container, .topics.container{
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
@@ -303,6 +304,10 @@ header{
     margin-bottom: 6rem;
     padding: 0;
     gap: 5rem;
+}
+
+.container {
+    display: grid; 
 }
 
 .container h2 {
@@ -313,14 +318,28 @@ header{
     font-size: 16px;
 }
 
-.container h2,
-.container p,
+.project_perex,
+.topic_perex,
 .container hr,
 .container a {
     font-weight: 500;
     padding: 3rem;
     color: white;
     text-decoration: none;
+}
+
+.project_title, .topic_title{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.project_title{
+    padding: 3rem 3rem 0 3rem;
+}
+
+.topic_title{
+    padding: 3rem;
 }
 
 .container a {
