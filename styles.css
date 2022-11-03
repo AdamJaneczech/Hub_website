@@ -326,6 +326,7 @@ header{
     padding: 3rem;
     color: white;
     text-decoration: none;
+    text-overflow: ellipsis;
 }
 
 .project_title, .topic_title{
