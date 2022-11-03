@@ -42,7 +42,7 @@ header{
 .navbar.scrolled{
     background: #272727;
     transition: all 0.5s ease-in-out;
-    box-shadow: 0 5px #50D890;
+    box-shadow: 0 4px #50D890;
     text-shadow: none;
     height: 6rem;
 }
@@ -177,7 +177,7 @@ header{
     background-color: white;
     background-image: url("./Grafika/HUB_2_w1000px_gr.png");
     background-repeat: no-repeat;
-    background-position: 90% -83vh;
+    background-position: calc(100% - 200px) -83vh;
     color: #272727;
 }
 

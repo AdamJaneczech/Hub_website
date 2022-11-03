@@ -4,33 +4,15 @@
     background-position: 0 50%;
 }
 
-.DDD_printer, .Arduino{
-    transition: 0.5s ease-in-out;
-    max-height: 480px;
-    min-width: 480px;
-    max-width: 600px;
-    background-color: #50D890;
-    background-size: contain;
-    background-blend-mode: luminosity;
-    border-radius: 3.5rem;
-    padding: 0;
-}
-
 .Arduino{
-    background-image: url("./Grafika/arduino_background.png");
+    background-image: url("./Grafika/thumbnail_image_2.png");
     background-position: center bottom;
-    background-size: cover;
     background-repeat: no-repeat;
+    text-decoration: none;
 }
 
 .DDD_printer{
-    background-image: url("./Grafika/3D_tisk.jpg");
+    background-image: url("./Grafika/Hub_image_2.jpg");
     background-position: center bottom;
-    background-size: cover;
     background-repeat: no-repeat;
-}
-
-.DDD_printer:hover, .Arduino:hover{
-    background-color: transparent;
-    border-radius: 3.5rem;
 }

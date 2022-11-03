@@ -19,7 +19,7 @@
 
 .project_block:hover{
     transition: all 0.5s ease-in-out;
-    background-color: #27272764;
+    background-color: #27272788;
 }
 
 .project_block{
@@ -29,9 +29,8 @@
     max-width: 1200px;
     background-color: #272727;
     background-blend-mode: overlay;
-    background-size: contain;
-    background-image: url(./Grafika/thumbnail_image_2.png);
     background-size: cover;
+    border-radius: 1rem;
 }
 
 .container h2, .container p, .container hr, .container a{
