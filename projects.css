@@ -35,10 +35,23 @@
     height: auto;
 }
 
-.container h2, .container p, .container hr, .container a{
+.container h2, .container hr, .container a{
     font-weight: 500;
     color: white;
     text-decoration: none;
+}
+
+.info.container{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+}
+
+.author{
+    align-items: center;
+    font-weight: 300;
+    font-style: italic;
+    margin: 1rem auto 1rem 3rem;
 }
 
 .category.container{
@@ -46,6 +59,11 @@
     column-gap: 0.5rem;
     justify-content: right;
     margin: 1rem 3rem 1rem auto;
+    font-weight: 400;
+}
+
+.project_perex{
+    font-weight: 300;
 }
 
 body{

@@ -10,10 +10,10 @@
 }
 
 .preload * {
-    /* -webkit-transition: none !important;
+    -webkit-transition: none !important;
     -moz-transition: none !important;
     -ms-transition: none !important;
-    -o-transition: none !important; */
+    -o-transition: none !important;
 }
 
 html {
@@ -52,7 +52,6 @@ header{
     position: fixed;
     align-items: center;
     align-content: center;
-    /* justify-content: space-between; */
     height: 8rem;
     width: 100%;
     color: white;
@@ -81,7 +80,7 @@ header{
 .menu_items {
     display: inline-flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 62.5%;
     margin-left: auto;
     margin-right: auto;
@@ -158,7 +157,6 @@ header{
     background-size: auto, cover;
     background-attachment: scroll, fixed;
     background-position: calc(100% - 200px) 8rem, 0 0;
-    align-items: calc(center + 120px);
     padding-top: 8rem;
 }
 
@@ -173,12 +171,12 @@ header{
 }
 
 .cal {
-    height: calc(100vh - 6rem);
+    height: max-content;
     background-color: white;
     background-image: url("./Grafika/HUB_2_w1000px_gr.png");
     background-repeat: no-repeat;
-    background-position: calc(100% - 200px) -83vh;
-    color: #272727;
+    background-attachment: scroll;
+    background-position: calc(100% - 200px) 8rem;
 }
 
 .cal h1 {
@@ -188,7 +186,8 @@ header{
 }
 
 .cal iframe {
-    margin: 2rem 0;
+    margin: 5rem 0;
+    height: 60vh;
 }
 
 #footer_logo{
@@ -395,7 +394,7 @@ header{
 
 #intro_button:hover {
     transition: 0.5s ease-out;
-    box-shadow: 0.75rem 0.75rem #50D890;
+    box-shadow: 0.5rem 0.5rem #50D890;
     background-color: white;
     opacity: 0.8;
 }
